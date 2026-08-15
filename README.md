@@ -1,4 +1,4 @@
-# 🧠 NeuralMark.ai — AI Bookmark Organizer & Modern New Tab Hub
+# 🧠 Booksmarts A.I. — AI Bookmark Organizer & Modern New Tab Hub
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-v3.0.0-4285F4?logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-success)](https://developer.chrome.com/docs/extensions/mv3/intro/)
