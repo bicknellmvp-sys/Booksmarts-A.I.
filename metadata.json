@@ -1,0 +1,6 @@
+{
+  "name": "AI Bookmark Organizer",
+  "description": "AI-powered Chrome extension and bookmark organizer that automatically scans and categorizes bookmarks into smart folders using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
