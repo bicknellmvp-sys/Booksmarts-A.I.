@@ -34,7 +34,7 @@ export const ExtensionExportModal: React.FC<ExtensionExportModalProps> = ({ onCl
       const url = URL.createObjectURL(zipBlob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'ai-bookmark-organizer-chrome-extension.zip';
+      a.download = 'booksmarts-ai-chrome-extension.zip';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -64,7 +64,7 @@ export const ExtensionExportModal: React.FC<ExtensionExportModalProps> = ({ onCl
             </div>
             <div>
               <div className="flex items-center gap-2.5">
-                <h2 className="text-xl font-bold text-white">Chrome Extension Package (Manifest V3)</h2>
+                <h2 className="text-xl font-bold text-white">Booksmarts A.I. Chrome Extension (Manifest V3)</h2>
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                   Ready to Load
                 </span>
@@ -83,6 +83,26 @@ export const ExtensionExportModal: React.FC<ExtensionExportModalProps> = ({ onCl
             <Download className="w-4 h-4" />
             <span>{isDownloading ? 'Packaging ZIP...' : 'Download Extension (.ZIP)'}</span>
           </button>
+        </div>
+      </div>
+
+      {/* Troubleshooting Alert: Manifest Missing Fix */}
+      <div className="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-start gap-3.5">
+        <div className="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center justify-center shrink-0 mt-0.5">
+          <ShieldCheck className="w-4 h-4" />
+        </div>
+        <div className="text-xs text-slate-300 flex-1 leading-relaxed">
+          <strong className="text-amber-200 block text-xs mb-1">
+            ⚠️ Getting "Manifest file is missing" when loading in Chrome?
+          </strong>
+          <ol className="list-decimal list-inside space-y-1 text-slate-300 text-[11px]">
+            <li>
+              <strong>Unzip the downloaded file first:</strong> Right-click <code className="text-indigo-300">booksmarts-ai-chrome-extension.zip</code> and select <em>"Extract All..."</em> (Windows) or double-click to unzip (Mac).
+            </li>
+            <li>
+              <strong>Select the unzipped folder:</strong> In Chrome <code className="text-indigo-300">chrome://extensions</code>, click <strong>"Load unpacked"</strong> and make sure to select the extracted folder that directly contains <code className="text-emerald-300 font-mono">manifest.json</code> (not the .zip file itself or the outer Downloads folder).
+            </li>
+          </ol>
         </div>
       </div>
 
