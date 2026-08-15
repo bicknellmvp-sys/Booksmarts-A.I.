@@ -420,7 +420,7 @@ export const PowerUserMenu: React.FC<PowerUserMenuProps> = ({
 
         {/* Drawer Footer */}
         <div className="p-4 border-t border-white/10 bg-[#131318] flex items-center justify-between text-slate-400 text-[11px]">
-          <span className="font-mono">NeuralMark.ai v3.0.0</span>
+          <span className="font-mono">Booksmarts A.I. v3.0.0</span>
           <span className="text-emerald-400 font-mono">● Local-First Engine</span>
         </div>
 

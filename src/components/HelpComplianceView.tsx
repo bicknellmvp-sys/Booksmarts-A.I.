@@ -192,10 +192,10 @@ export const HelpComplianceView: React.FC<HelpComplianceViewProps> = ({
             <div className="flex flex-col gap-3">
               <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
                 <h4 className="text-xs font-bold text-white mb-1">
-                  Q: Does NeuralMark alter my browser bookmarks without my permission?
+                  Q: Does Booksmarts A.I. alter my browser bookmarks without my permission?
                 </h4>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  No. NeuralMark operates on a strict **Preview & Confirm Diff** architecture. Whenever AI reorganizes or moves bookmarks, you are shown an exact visual diff review screen to accept or reject changes before they are applied.
+                  No. Booksmarts A.I. operates on a strict **Preview & Confirm Diff** architecture. Whenever AI reorganizes or moves bookmarks, you are shown an exact visual diff review screen to accept or reject changes before they are applied.
                 </p>
               </div>
 
@@ -291,7 +291,7 @@ export const HelpComplianceView: React.FC<HelpComplianceViewProps> = ({
               <EyeOff className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-base font-bold text-white">Privacy Policy for NeuralMark.ai</h3>
+              <h3 className="text-base font-bold text-white">Privacy Policy for Booksmarts A.I.</h3>
               <p className="text-xs text-slate-400">Effective Date: January 1, 2026 • Local-First Architecture</p>
             </div>
           </div>
@@ -300,7 +300,7 @@ export const HelpComplianceView: React.FC<HelpComplianceViewProps> = ({
             <div>
               <h4 className="text-sm font-bold text-white mb-1">1. Local Data Storage & Zero Telemetry</h4>
               <p className="text-xs text-slate-300">
-                NeuralMark.ai does not collect, sell, or rent your personal browsing history, bookmarks, or account information. All bookmark data, tags, folders, scratchpad notes, and todos reside exclusively inside your local browser storage (<code className="text-indigo-300">chrome.storage.local</code> or <code className="text-indigo-300">localStorage</code>).
+                Booksmarts A.I. does not collect, sell, or rent your personal browsing history, bookmarks, or account information. All bookmark data, tags, folders, scratchpad notes, and todos reside exclusively inside your local browser storage (<code className="text-indigo-300">chrome.storage.local</code> or <code className="text-indigo-300">localStorage</code>).
               </p>
             </div>
 
@@ -339,7 +339,7 @@ export const HelpComplianceView: React.FC<HelpComplianceViewProps> = ({
             </div>
             <div>
               <h3 className="text-base font-bold text-white">Terms of Service & Copyright Notice</h3>
-              <p className="text-xs text-slate-400">© 2026 NeuralMark.ai • Open Software License</p>
+              <p className="text-xs text-slate-400">© 2026 Booksmarts A.I. • Open Software License</p>
             </div>
           </div>
 
@@ -347,7 +347,7 @@ export const HelpComplianceView: React.FC<HelpComplianceViewProps> = ({
             <div>
               <h4 className="text-sm font-bold text-white mb-1">1. Intellectual Property</h4>
               <p className="text-xs text-slate-300">
-                NeuralMark.ai and all accompanying code, UI layouts, and documentation are protected by copyright law and open source licenses. You are granted a personal, non-exclusive license to use, install, and modify the software for personal or organization use.
+                Booksmarts A.I. and all accompanying code, UI layouts, and documentation are protected by copyright law and open source licenses. You are granted a personal, non-exclusive license to use, install, and modify the software for personal or organization use.
               </p>
             </div>
 

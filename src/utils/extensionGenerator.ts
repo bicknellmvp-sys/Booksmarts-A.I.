@@ -13,7 +13,7 @@ export function getExtensionFiles(apiBaseUrl: string = ''): ExtensionFile[] {
   const manifestJson = JSON.stringify(
     {
       manifest_version: 3,
-      name: "AI Bookmark Organizer",
+      name: "Booksmarts A.I. - AI Bookmark Organizer & New Tab Hub",
       version: "1.0.0",
       description: "Automatically scan and organize browser bookmarks into smart folders using Gemini AI.",
       permissions: [
@@ -28,7 +28,7 @@ export function getExtensionFiles(apiBaseUrl: string = ''): ExtensionFile[] {
       ],
       action: {
         default_popup: "popup.html",
-        default_title: "AI Bookmark Organizer"
+        default_title: "Booksmarts A.I."
       },
       side_panel: {
         default_path: "sidepanel.html"

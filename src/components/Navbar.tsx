@@ -77,7 +77,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-base font-bold tracking-tight text-white">
-                  NeuralMark<span className="text-indigo-400 font-normal">.ai</span>
+                  Booksmarts<span className="text-indigo-400 font-bold ml-1">A.I.</span>
                 </h1>
                 <span className="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono uppercase bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
                   <Chrome className="w-3 h-3" /> V3 EXT
